@@ -10,6 +10,7 @@
 	<target name="init">
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
+		<echo>the echo value is ${p1}</echo>
 	</target>
 	
 	<target name="compile" depends="init" >
